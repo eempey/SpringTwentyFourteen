@@ -1,0 +1,83 @@
+body {
+	color: #FFF;
+}
+.myspace {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -10px;
+}
+.bandcamp {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -55px;
+}
+.youtube {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -100px;
+}
+.vimeo {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -145px;
+}
+.reverb-nation {
+	width: 36px;
+	height: 35px;
+	background-position: -10px -190px;
+}
+.facebook {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -235px;
+}
+.facebook:hover{
+	background-color:#45619D;
+}
+.gplus {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -280px;
+}
+.itunes {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -325px;
+}
+.soundcloud {
+	width: 36px;
+	height: 35px;
+	background-position: -10px -370px;
+}
+.twitter {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -415px;
+}
+.last-fm {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -460px;
+}
+.social-media-icons li {
+	display: inline;
+}

@@ -1,0 +1,154 @@
+/*
+Theme Name: Spring 2014
+Theme URI: http://www.erinempey.com
+Description: Wordpress theme for Vancouver based band Sprïng's debut release
+Version: 1
+Author: Erin Empey
+Author URI: http://www.erinempey.com
+*/
+
+html, body{
+	height:100%;
+}
+
+body{
+	padding-top:80px;
+	background-image:url(../cover.jpg);
+	background-size:cover;
+}
+
+#wrap {
+    height: auto;
+    margin: 0 auto -60px;
+    min-height: 100%;
+    padding: 0 0 60px;
+}
+
+footer{
+	background-color:#000;
+	color:#FFF;
+	min-height:60px;
+	margin-top:30px;
+}
+
+.col-md-6{
+	background-color:rgba(219,219,234,0.75);
+	padding:0 30px 30px 30px;
+}
+
+.col-md-5{
+	background-color:rgba(219,219,234,0.75);
+	padding:0 30px 30px 30px;
+}
+
+/*.leftBlock{
+	background-color:#0F9;
+	margin-right:30px;
+	padding:30px;
+	margin-left:-15px;
+	margin-bottom: 30px;
+}
+
+.rightBlock{
+	background-color:#9F9;
+	margin-left:30px;
+	padding:30px;
+	margin-right:-15px;
+	margin-bottom: 30px;
+}*/
+
+.myspace {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -10px;
+}
+.bandcamp {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -55px;
+}
+.youtube {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -100px;
+}
+.vimeo {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -145px;
+}
+.reverb-nation {
+	width: 36px;
+	height: 35px;
+	background-position: -10px -190px;
+}
+.facebook {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -235px;
+}
+.facebook:hover{
+	background-color:#45619D;
+}
+.gplus {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -280px;
+}
+.itunes {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -325px;
+}
+.soundcloud {
+	width: 36px;
+	height: 35px;
+	background-position: -10px -370px;
+}
+.twitter {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -415px;
+}
+.last-fm {
+	background: url("../images/social-media-sprites.png");
+	display: inline-block;
+	width: 36px;
+	height: 35px;
+	background-position: -10px -460px;
+}
+.social-media-icons li{
+	display: inline;
+}
+
+.social-media-icons li a{
+	display:inline-block;
+	margin-top:10px;
+}
+
+ul.social-media-icons{
+	padding-left:0px;
+	display:inline;
+}
+
+
+
+
+
