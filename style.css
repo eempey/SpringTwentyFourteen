@@ -57,12 +57,18 @@ h1.spring{
 	height: 35px;
 	background-position: -10px -55px;
 }
+.bandcamp:hover, .nav > li > a.bandcamp:hover, .nav > li > a.bandcamp:focus{
+	background-color: #629AA9;
+}
 .youtube {
 	background: url("images/social-media-sprites.png");
 	display: inline-block;
 	width: 36px;
 	height: 35px;
 	background-position: -10px -100px;
+}
+.youtube:hover, .nav > li > a.youtube:hover, .nav > li > a.youtube:focus{
+	background-color: #AF2B26;
 }
 .vimeo {
 	background: url("images/social-media-sprites.png");
@@ -83,7 +89,7 @@ h1.spring{
 	height: 35px;
 	background-position: -10px -235px;
 }
-.facebook:hover{
+.facebook:hover, .nav > li > a.facebook:hover, .nav > li > a.facebook:focus{
 	background-color:#45619D;
 }
 .gplus {
@@ -112,6 +118,9 @@ h1.spring{
 	height: 35px;
 	background-position: -10px -415px;
 }
+.twitter:hover, .nav > li > a.twitter:hover, .nav > li > a.twitter:focus{
+	background-color: #00BEF6;
+}
 .last-fm {
 	background: url("images/social-media-sprites.png");
 	display: inline-block;
@@ -131,6 +140,10 @@ h1.spring{
 ul.social-media-icons{
 	padding-left:0px;
 	display:inline;
+}
+
+.social-media-icons li a:hover{
+	transition:background-color 1s;
 }
 
 footer{
