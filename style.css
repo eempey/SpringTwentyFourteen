@@ -13,8 +13,11 @@ html, body{
 
 body{
 	padding-top:80px;
-	background-image:url(cover.jpg);
 	background-size:cover;
+}
+
+body.logged-in nav{
+	margin-top: 28px;
 }
 
 #wrap {
@@ -28,12 +31,16 @@ h1.spring{
 	display:inline;
 }
 
+nav.navbar-inverse{
+	background-color: #000000;
+	background-image:none;
+}
+
 .col-md-6{
 }
 
 .col-md-5{
-	background-color:rgba(219,219,234,0.75);
-	padding:0 30px 30px 30px;
+	
 }
 
 .post-content{
@@ -42,102 +49,69 @@ h1.spring{
 	padding:5px 30px 30px 30px;
 }
 
-.myspace {
+.social-media-icons a{
 	background: url("images/social-media-sprites.png");
 	display: inline-block;
-	;
 	width: 36px;
 	height: 35px;
+	font-size: 1px;
+	color:rgba(255,255,255,0);
+}
+.myspace a{
 	background-position: -10px -10px;
 }
-.bandcamp {
-	background: url("images/social-media-sprites.png");
-	display: inline-block;
-	width: 36px;
-	height: 35px;
+.bandcamp a{
 	background-position: -10px -55px;
 }
-.bandcamp:hover, .nav > li > a.bandcamp:hover, .nav > li > a.bandcamp:focus{
+.bandcamp a:hover, .nav > li.bandcamp > a:hover, .nav > li.bandcamp > a:focus{
 	background-color: #629AA9;
 }
-.youtube {
-	background: url("images/social-media-sprites.png");
-	display: inline-block;
-	width: 36px;
-	height: 35px;
+.youtube a{
 	background-position: -10px -100px;
 }
-.youtube:hover, .nav > li > a.youtube:hover, .nav > li > a.youtube:focus{
+.youtube a:hover, .nav > li.youtube > a:hover, .nav > li.youtube > a:focus{
 	background-color: #AF2B26;
 }
-.vimeo {
-	background: url("images/social-media-sprites.png");
-	display: inline-block;
-	width: 36px;
-	height: 35px;
+.vimeo a{
 	background-position: -10px -145px;
 }
-.reverb-nation {
-	width: 36px;
-	height: 35px;
+.reverbnation a{
 	background-position: -10px -190px;
 }
-.facebook {
-	background: url("images/social-media-sprites.png");
-	display: inline-block;
-	width: 36px;
-	height: 35px;
+.facebook a{
 	background-position: -10px -235px;
 }
-.facebook:hover, .nav > li > a.facebook:hover, .nav > li > a.facebook:focus{
+.facebook a:hover, .nav > li.facebook > a:hover, .nav > li.facebook > a:focus{
 	background-color:#45619D;
 }
-.gplus {
-	background: url("images/social-media-sprites.png");
-	display: inline-block;
-	width: 36px;
-	height: 35px;
+.gplus a{
 	background-position: -10px -280px;
 }
-.itunes {
-	background: url("images/social-media-sprites.png");
-	display: inline-block;
-	width: 36px;
-	height: 35px;
+.itunes a{
 	background-position: -10px -325px;
 }
-.soundcloud {
-	width: 36px;
-	height: 35px;
+.soundcloud a{
 	background-position: -10px -370px;
 }
-.twitter {
-	background: url("images/social-media-sprites.png");
-	display: inline-block;
-	width: 36px;
-	height: 35px;
+.twitter a{
 	background-position: -10px -415px;
 }
-.twitter:hover, .nav > li > a.twitter:hover, .nav > li > a.twitter:focus{
+.twitter a:hover, .nav > li.twitter > a:hover, .nav > li.twitter > a:focus{
 	background-color: #00BEF6;
 }
-.last-fm {
-	background: url("images/social-media-sprites.png");
-	display: inline-block;
-	width: 36px;
-	height: 35px;
+.lastfm a{
 	background-position: -10px -460px;
 }
 .social-media-icons li{
 	display: inline;
 }
 
-.social-media-icons li a{
+nav .social-media-icons li a{
 	display:inline-block;
 	margin-top:10px;
 }
 
-ul.social-media-icons{
+ul#menu-social-media-icons{
 	padding-left:0px;
 	display:inline;
 }
@@ -146,12 +120,42 @@ ul.social-media-icons{
 	transition:background-color 1s;
 }
 
+li.widget{
+	list-style-type: none;
+}
+
+#sidebar li.widget{
+	margin:0 -15px 45px -55px;
+	background-color:rgba(219,219,234,0.75);
+	padding:1px 30px 30px 30px;
+}
+
 footer{
 	background-color:#000;
 	color:#FFF;
-	min-height:60px;
+
 	margin-top:30px;
+	clear: both;
+
 }
+footer ul.social-media-icons{
+	margin: 0px;
+	padding: 0;
+	display: inline;
+}
+footer .social-media-icons{
+	list-style-type: none;
+}
+footer .social-media-icons li a{
+	display: inline-block;
+}
+.copyright{
+	padding: 15px;
+	clear: both;
+	overflow: visible;
+	float: left;
+}
+
 
 
 

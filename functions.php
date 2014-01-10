@@ -1,11 +1,14 @@
 <?php 
 
-//Register the Main menu
-function register_my_menu() {
-  register_nav_menu('header-menu',__( 'Header Menu' ));
-}
-add_action( 'init', 'register_my_menu' ); 
+//Register the Menus
+register_nav_menus( array(
+	'header-menu' => 'Header Menu',
+	'social-media-icons' => 'Social Media Menu'
+) );
 
+
+add_filter( 'widget_text', 'shortcode_unautop');
+add_filter( 'widget_text', 'do_shortcode');
 
 // Register Custom Navigation Walker
 require_once('wp_bootstrap_navwalker.php');
@@ -22,6 +25,10 @@ function spring_scripts_with_jquery()
 }  
 add_action( 'wp_enqueue_scripts', 'spring_scripts_with_jquery' );  
 
+add_theme_support( 'custom-background' );
 
+
+register_sidebar( array('name' => 'Right Sidebar' ));
+register_sidebar( array('name' => 'Footer Widgets' ));
 
 ?>

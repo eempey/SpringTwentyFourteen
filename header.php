@@ -11,10 +11,10 @@
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
-
+<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 
 </head>
-<body>
+<body <?php body_class(); ?>>
 <div id="wrap">
 <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation"> 
   <!-- Brand and toggle get grouped for better mobile display -->
@@ -35,11 +35,16 @@
 		'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
         'walker'            => new wp_bootstrap_navwalker()
 		 )); ?>
-      <ul class="nav social-media-icons">
-        <li><a href="#" title="facebook" target="_blank" class="facebook"></a></li>
-        <li><a href="#" title="twitter" target="_blank" class="twitter"></a></li>
-        <li><a href="#" title="bandcamp" target="_blank" class="bandcamp"></a></li>
-      </ul>
+     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+      <?php 
+        wp_nav_menu( array( 
+          'theme_location' => 'social-media-icons', 
+          'container' => '', 
+          'items_wrap' => '<ul class="nav social-media-icons">%3$s</ul>',
+        )); 
+      ?>
+      
     </div>
   </div>
 </nav>
