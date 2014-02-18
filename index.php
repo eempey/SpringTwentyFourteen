@@ -6,7 +6,7 @@
  * @since Spring 1.0
  */
 
-define('WP_USE_THEMES', false); get_header(); ?>
+/*define('WP_USE_THEMES', false);*/ get_header(); ?>
 
  <div class="container">
     <div class="col-md-6 ">

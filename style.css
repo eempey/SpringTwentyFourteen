@@ -93,6 +93,9 @@ nav.navbar-inverse{
 .soundcloud a{
 	background-position: -10px -370px;
 }
+.soundcloud a:hover, .nav > li.soundcloud > a:hover, .nav > li.soundcloud > a:focus{
+	background-color: #FF4500;
+}
 .twitter a{
 	background-position: -10px -415px;
 }
@@ -155,6 +158,23 @@ footer .social-media-icons li a{
 	overflow: visible;
 	float: left;
 }
+
+/*********************************************************Gigpress*****************************************************************/
+
+.gigpress-table tr.gigpress-tour td {
+    background-color: transparent;
+}
+
+.gigpress-table th.gigpress-heading {
+    background-color: transparent;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.gigpress-table .gigpress-row td {
+    border-bottom: none;
+}
+
+/**********************************************************************************************************************************/
 
 
 
