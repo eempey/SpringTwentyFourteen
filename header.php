@@ -12,7 +12,6 @@
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
 <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
-
 </head>
 <body <?php body_class(); ?>>
 <div id="wrap">
@@ -47,4 +46,5 @@
       
     </div>
   </div>
+</div>
 </nav>
