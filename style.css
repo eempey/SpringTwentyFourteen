@@ -36,6 +36,9 @@ a:hover{
 h1.spring{
 	display:inline;
 }
+h1.spring a.navbar-brand{
+	color: #fff;
+}
 img{
 	max-width: 100%;
 	height: auto;
@@ -176,6 +179,13 @@ footer{
 	overflow: visible;
 	float: left;
 }
+
+div.sharedaddy a.sd-button, div.sharedaddy a.sd-button:hover {
+    background:none;
+    border: none!important;
+    border-radius: 0;
+    box-shadow: none;
+    }
 
 /*********************************************************Gigpress*****************************************************************/
 
@@ -318,6 +328,12 @@ select#format{
 	color:#636363;
 	margin-right: 10px;
 }
+.half-column-products .product a:hover{
+	text-decoration: none;
+}
+.half-column-products .product a h3:hover{
+	text-decoration: underline;
+}
 
 .post-content .wc-forward{
 	margin: 20px auto 10px auto;
@@ -331,9 +347,83 @@ select#format{
 	margin-bottom: 0;
 }
 
+#billing_company_field,
+#shipping_company_field{
+	display: none;
+}
+
 
 
 /***********************************************************************************************************************************/
 
+/*****************************************************Jetpack Contact form  ****************************************************************/
 
+.contact-form .clear-form { clear: both; }
+.contact-form input[type='text'], .contact-form input[type='email'] { width: 300px; max-width: 98%; margin-bottom: 13px; }
+.contact-form select { margin-bottom: 13px; }
+.contact-form input[type='radio'], .contact-form input[type='checkbox'] { float: none; margin-bottom: 13px; }
+.contact-form label { margin-bottom: 3px; float: none; font-weight: bold; display: block; }
+.contact-form label.checkbox, .contact-form label.radio { margin-bottom: 3px; float: none; font-weight: bold; display: inline-block; }
+.contact-form label span { color: #AAA; margin-left: 4px; font-weight: normal; }
+.form-errors .form-error-message { color: red; }
+.textwidget input[type='text'], .textwidget input[type='email'], .textwidget textarea { width: 98%; }
+
+article.post-content .social-media-icons{
+	display: block;
+	margin:30px auto 30px auto;
+}
+
+#contact-form-73{
+	clear: both;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+.contact-form textarea { height: 200px; width: 80%; float: none; margin-bottom: 13px; }
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+	
+	border-color: #66AFE9;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+.contact-submit input{
+	background: none repeat scroll 0 0 #428BCA;
+    border: 1px solid #357EBD;
+    border-radius: 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 100%;
+    left: auto;
+    line-height: 1em;
+    margin: 0;
+    overflow: visible;
+    padding: 6px 10px;
+    position: relative;
+    text-decoration: none;
+    transition: background-color 0.5s ease 0s;
+    white-space: nowrap;
+    width: auto;
+}
+.contact-submit input:hover{
+	background-color: #3276B1;
+}
 
