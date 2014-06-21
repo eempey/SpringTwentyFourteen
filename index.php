@@ -9,7 +9,12 @@
 /*define('WP_USE_THEMES', false);*/ get_header(); ?>
 
  <div class="container">
-    <div class="col-md-6 ">
+    <?php if(is_active_sidebar(1)){
+    	echo "<div class='col-md-6'>";
+    }else{
+    	echo "<div class='col-md-12'>";
+    } ?> 
+    	
 
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     
